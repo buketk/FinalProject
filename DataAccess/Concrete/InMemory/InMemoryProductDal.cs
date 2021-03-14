@@ -75,9 +75,6 @@ namespace DataAccess.Concrete.InMemory
 
         }
 
-        List<Product> IProductDal.GetAllByCategory(int CategoryId)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }
